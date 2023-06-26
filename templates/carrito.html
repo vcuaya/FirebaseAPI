@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>E-commerce</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Liu+Jian+Mao+Cao&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./../static/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+
+<body>
+    <nav class=" navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid ">
+            <a class="navbar-brand col-md-4 col-lg-5  logo-link" href="index.html">
+                <img src="../static/img/logo_narvar.png" alt="logo" width="52" height="28"
+                    class="d-inline-block align-text-top "> E-commerce
+            </a>
+            <div class="collapse navbar-collapse col-lg-4 justify-content-end barra" id="navbarNavDropdown">
+                <a id="home-nav" class="nav-link" href="index.html" aria-current="page">Inicio</a>
+            </div>
+        </div>
+    </nav>
+    <hr class="navegacion">
+
+    <div class="container shadow p-3 mb-5 bg-white rounded">
+        <div class="fondo1 p-3 text-white rounded mb-3">
+            <h2 class="fw-bold">Carrito</h2>
+        </div>
+        <div class="row mb-2">
+            <div class="col-6">
+                <div class="shopping-cart-header">
+                    <h6>Producto</h6>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="shopping-cart-header">
+                    <h6 class="text-truncate">Precio</h6>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="shopping-cart-header">
+                    <h6>Cantidad</h6>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="shopping-cart-header">
+                    <h6>Subtotal</h6>
+                </div>
+            </div>
+        </div>
+
+        <!--Inicia tarjeta de producto-->
+        <div class="container shadow p-3 mb-3 bg-white rounded">
+            <div id="productos-container"></div>
+            <div class="row shoppingCartItem">
+                <div class="col-6">
+                    <div class="shopping-cart-item d-flex align-items-center h-100 border-bottom pb-2 pt-3">
+                        <h6 class="shopping-cart-item-title shoppingCartItemTitle text-truncate ml-3 mb-0 ">
+
+                        </h6>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="shopping-cart-price d-flex align-items-center h-100 border-bottom pb-2 pt-3">
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div
+                        class="shopping-cart-quantity d-flex justify-content-between align-items-center h-100 border-bottom pb-2 pt-3">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Final de tarjeta de producto-->
+
+        <!--inicia la parte del total-->
+        <div class="row">
+            <div class="shopping-cart-total d-flex align-items-center">
+                <div class="mx-3 mb-0" id="total-container">
+                    Total: $<span id="total-value">0</span>
+                </div>
+                <button class="btn btn-success ml-auto comprarButton align-items-end" type="button" data-toggle="modal"
+                    data-target="#comprarModal">Comprar</button>
+            </div>
+        </div>
+        <!--Final de total-->
+
+        <!--Inicia ventana emergente cuando das en el boton de comprar-->
+        <div class="modal fade" id="comprarModal" tabindex="-1" aria-labelledby="comprarModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="comprarModalLabel">Compra</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="" method="post">
+                            <div id="agradecimiento" class="container">
+                                <div class="row">
+                                    <div class="col-md-6 offset-md-3 text-center">
+                                        <h2 class="display-4">¡Gracias por tu compra!</h2>
+                                        <p class="lead">Tu pedido ha sido procesado con éxito.</p>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" onclick="redirigirACompra()"
+                            data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--final de la ventana emergente-->
+    </div>
+
+    <div class="clear"></div>
+
+    <footer>
+        <p>&copy; 2023 eCommerce Portal. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d02273941b.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="./../static/js/carrito.js"></script>
+    <script src="./../static/js/cart.js"></script>
+    <script>
+    </script>
+</body>
+
+</html>
