@@ -1,0 +1,446 @@
+{
+  "categories": {
+    "0": {
+      "name": "Computadoras"
+    },
+    "1": {
+      "name": "Consumibles"
+    },
+    "2": {
+      "name": "Impresoras"
+    }
+  },
+  "products": {
+    "151D3LT": {
+      "category_id": 0,
+      "description": "Laptop HP 240 G7 14\" Intel Core i3 1005G1 Disco duro 500 GB Ram 4 GB Windows 10 Home",
+      "image": "https://www.cyberpuerta.mx/img/product/M/CP-HP-151D3LT-1.jpg",
+      "price": 10099,
+      "related_products": [
+        "Z4B53A"
+      ],
+      "title": "HP 240 G7"
+    },
+    "20SL00VNLM": {
+      "category_id": 0,
+      "description": "Lenovo ThinkBook 14 Computadora portátil 35.6 cm (14\") Full HD Intel Core i3 8 GB DDR4-SDRAM 1000 GB Unidad de disco duro Wi-Fi 6 (802.11ax) Windows 10 Pro Gris",
+      "image": "https://www.cyberpuerta.mx/img/product/M/CP-LENOVO-20SL00VNLM-1.png",
+      "price": 8779,
+      "related_products": [
+        "Z4B53A"
+      ],
+      "title": "Lenovo ThinkBook 14-IIL"
+    },
+    "2T4N4LT": {
+      "category_id": 0,
+      "description": "HP EliteOne 800 G6 All-in-One 23.8\", Intel Core i7-10700 2.9 GHz, 8GB, 512GB SSD, Windows 10 Pro 64-bit, Plata",
+      "image": "https://www.cyberpuerta.mx/img/product/M/CP-HP-2T4N4LT-52a09e.jpg",
+      "price": 28479,
+      "related_products": [
+        "3QA55A"
+      ],
+      "title": "HP EliteOne 800 G6"
+    },
+    "2Z611A": {
+      "category_id": 2,
+      "description": "HP LaserJet Pro 4003n, Blanco y Negro, Láser, Print",
+      "image": "https://www.cyberpuerta.mx/img/product/M/CP-HP-2Z611A-2a1232.jpg",
+      "price": 5159,
+      "related_products": [
+        "W1510X",
+        "W1510A"
+      ],
+      "title": "HP LaserJet Pro 4003n"
+    },
+    "2Z627A": {
+      "category_id": 2,
+      "description": "Multifuncional HP LaserJet Pro MFP 4103dw, Blanco y Negro, Láser, Print/Scan/Copy",
+      "image": "https://www.cyberpuerta.mx/img/product/M/CP-HP-2Z627A-4c9fdb.png",
+      "price": 8009,
+      "related_products": [
+        "W1510X",
+        "W1510A"
+      ],
+      "title": "HP LaserJet Pro MFP 4103dw"
+    },
+    "36S0500": {
+      "category_id": 2,
+      "description": "Impresora Lexmark MS622de Monocromática 50ppm Láser USB 2.0 Ethernet Dúplex",
+      "image": "https://www.cyberpuerta.mx/img/product/M/CP-LEXMARK-36S0500-1.jpg",
+      "price": 12439,
+      "related_products": [
+        "56F4U00",
+        "56F4000",
+        "56F4H00",
+        "56F4X00"
+      ],
+      "title": "Lexmark MS622de"
+    },
+    "3QA55A": {
+      "category_id": 2,
+      "description": "HP Color LaserJet Enterprise MFP M480f, Color, Printer for Business, Print, copy, scan, fax, Compact Size; Strong Security; Two-sided printing; 50-sheet ADF; Energy Efficient",
+      "image": "https://www.cyberpuerta.mx/img/product/M/CP-HP-3QA55A-161001.jpg",
+      "price": 15499,
+      "related_products": [
+        "W2020X",
+        "W2021X",
+        "W2022X",
+        "W2023X"
+      ],
+      "title": "HP Color LaserJet Enterprise MFP M480f"
+    },
+    "4CYYJ": {
+      "category_id": 0,
+      "description": "DELL OptiPlex 7090 i5-10505 SFF Intel Core i5 8 GB DDR4-SDRAM 1TB Unidad de disco duro Windows 10 Pro PC Negro",
+      "image": "https://www.cyberpuerta.mx/img/product/M/CP-DELL-O709SFi5s81TBW11P3PS-6463ad.jpg",
+      "price": 21229,
+      "related_products": [
+        "2Z627A"
+      ],
+      "title": "Dell OptiPlex 7090"
+    },
+    "56F4000": {
+      "category_id": 1,
+      "description": "Tóner Lexmark 56F4000 Negro, 6000 Páginas",
+      "image": "https://www.cyberpuerta.mx/img/product/M/CP-LEXMARK-56F4U00-1.jpg",
+      "price": 3349,
+      "related_products": [
+        "36S0500"
+      ],
+      "title": "Tóner Lexmark 56F4000 Negro"
+    },
+    "56F4H00": {
+      "category_id": 1,
+      "description": "Tóner Lexmark 56F4H00 Negro, 15.000 Páginas",
+      "image": "https://www.cyberpuerta.mx/img/product/M/CP-LEXMARK-56F4H00-1.jpg",
+      "price": 7549,
+      "related_products": [
+        "36S0500"
+      ],
+      "title": "Tóner Lexmark 56F4H00 Negro"
+    },
+    "56F4U00": {
+      "category_id": 1,
+      "description": "Tóner Lexmark 56F4U00 Negro, 25.000 Páginas",
+      "image": "https://www.cyberpuerta.mx/img/product/M/CP-LEXMARK-56F4U00-1.jpg",
+      "price": 8469,
+      "related_products": [
+        "36S0500"
+      ],
+      "title": "Tóner Lexmark 56F4U00 Negro"
+    },
+    "56F4X00": {
+      "category_id": 1,
+      "description": "Tóner Lexmark 56F4X00 Negro, Extra Alto Rendimiento, 20.000 Páginas",
+      "image": "https://www.cyberpuerta.mx/img/product/M/CP-LEXMARK-56F4X00-1.jpg",
+      "price": 8379,
+      "related_products": [
+        "36S0500"
+      ],
+      "title": "Tóner Lexmark 56F4X00 Negro"
+    },
+    "BT5001C": {
+      "category_id": 1,
+      "description": "Tanque de Tinta Brother BT5001C Cian, 5000 Páginas",
+      "image": "https://www.cyberpuerta.mx/img/product/M/CP-BROTHER-BT5001C-1.jpg",
+      "price": 209,
+      "related_products": [
+        "MFCT920DW"
+      ],
+      "title": "Tinta Brother BT5001C Cian"
+    },
+    "BT5001M": {
+      "category_id": 1,
+      "description": "Tanque de Tinta Brother BT5001M Magenta, 5000 Páginas",
+      "image": "https://www.cyberpuerta.mx/img/product/M/CP-BROTHER-BT5001M-1.jpg",
+      "price": 209,
+      "related_products": [
+        "MFCT920DW"
+      ],
+      "title": "Tinta Brother BT5001M Magenta"
+    },
+    "BT5001Y": {
+      "category_id": 1,
+      "description": "Tanque de Tinta Brother BT5001Y Amarillo, 5000 Páginas",
+      "image": "https://www.cyberpuerta.mx/img/product/M/CP-BROTHER-BT5001Y-1.jpg",
+      "price": 209,
+      "related_products": [
+        "MFCT920DW"
+      ],
+      "title": "Tinta Brother BT5001Y Amarillo"
+    },
+    "BTD60BK": {
+      "category_id": 1,
+      "description": "Tanque de Tinta Brother BTD60BK Negro, 6500 Páginas",
+      "image": "https://www.cyberpuerta.mx/img/product/M/CP-BROTHER-BTD60BK-1.jpg",
+      "price": 209,
+      "related_products": [
+        "MFCT920DW"
+      ],
+      "title": "Tinta Brother BTD60BK Negro"
+    },
+    "C11CH96301": {
+      "category_id": 2,
+      "description": "Multifuncional Epson EcoTank L14150",
+      "image": "https://www.cyberpuerta.mx/img/product/M/CP-EPSON-C11CH96301-1.jpg",
+      "price": 18239,
+      "related_products": [
+        "T504120-AL",
+        "T504220-AL",
+        "T504320-AL",
+        "T504420-AL"
+      ],
+      "title": "Epson EcoTank L14150"
+    },
+    "CR-6-MAX": {
+      "category_id": 2,
+      "description": "Creality 3D CR-6 MAX 3D printer Fused Deposition Modeling (FDM)",
+      "image": "https://www.cyberpuerta.mx/img/product/M/CP-CREALITY-CR-6MAX-ac12c3.jpg",
+      "price": 19269,
+      "related_products": [
+        "ENDER-3-SI-PRO"
+      ],
+      "title": "Creality 3D CR-6 MAX"
+    },
+    "ENDER-3-SI-PRO": {
+      "category_id": 2,
+      "description": "Creality Impresora 3D Ender-3 S1 Pro, 22 x 22 x 27cm, Negro",
+      "image": "https://www.cyberpuerta.mx/img/product/M/CP-CREALITY-ENDER-3S1PRO-619ecc.jpg",
+      "price": 9889,
+      "related_products": [
+        "HALOT-ONE-PLUS"
+      ],
+      "title": "Creality Impresora 3D Ender-3 S1 Pro"
+    },
+    "HALOT-ONE-PLUS": {
+      "category_id": 2,
+      "description": "Creality 3D HALOT-ONE PLUS 3D printer Wi-Fi",
+      "image": "https://www.cyberpuerta.mx/img/product/M/CP-CREALITY-HALOT-ONEPLUS-25a975.jpg",
+      "price": 10889,
+      "related_products": [
+        "CR-6-MAX"
+      ],
+      "title": "Creality 3D HALOT-ONE PLUS"
+    },
+    "HT14CB7ASPWSPSG0": {
+      "category_id": 0,
+      "description": "HYBOOK ERENY PLUS 14.1\" LAPTOP AMD A9 8G",
+      "image": "https://www.cyberpuerta.mx/img/product/M/CP-HYUNDAI-HT14CB7ASPWSPSG01-1.png",
+      "price": 4709,
+      "related_products": [
+        "Z4B53A"
+      ],
+      "title": "Hyundai Ereny Plus"
+    },
+    "LC402BK": {
+      "category_id": 1,
+      "description": "Cartucho Brother LC402BK Negro, 550 Páginas",
+      "image": "https://www.cyberpuerta.mx/img/product/M/CP-BROTHER-LC402BK-cb4692.jpg",
+      "price": 549,
+      "related_products": [
+        "MFCJ6940DW"
+      ],
+      "title": "Brother LC402BK Negro"
+    },
+    "LC402XLC": {
+      "category_id": 1,
+      "description": "Cartucho Brother LC402XL Alto Rendimiento Cian, 1500 Páginas",
+      "image": "https://www.cyberpuerta.mx/img/product/M/CP-BROTHER-LC402XLC-5e8a0a.jpg",
+      "price": 759,
+      "related_products": [
+        "MFCJ6940DW"
+      ],
+      "title": "Brother LC402XL Alto Rendimiento Cian"
+    },
+    "LC402XLM": {
+      "category_id": 1,
+      "description": "Cartucho Brother LC402XL Alto Rendimiento Magenta, 1500 Páginas",
+      "image": "https://www.cyberpuerta.mx/img/product/M/CP-BROTHER-LC402XLM-07ec46.jpg",
+      "price": 799,
+      "related_products": [
+        "MFCJ6940DW"
+      ],
+      "title": "Brother LC402XL Alto Rendimiento Magenta"
+    },
+    "LC402XLY": {
+      "category_id": 1,
+      "description": "Cartucho Brother LC402XL Alto Rendimiento Amarillo, 1500 Páginas",
+      "image": "https://www.cyberpuerta.mx/img/product/M/CP-BROTHER-LC402XLY-8d76bd.jpg",
+      "price": 739,
+      "related_products": [
+        "MFCJ6940DW"
+      ],
+      "title": "Brother LC402XL Alto Rendimiento Amarillo"
+    },
+    "M0H54AL": {
+      "category_id": 1,
+      "description": "Botella de Tinta HP GT52 Cian Original",
+      "image": "https://www.cyberpuerta.mx/img/product/M/CP-HP-M0H54AL-891516.jpg",
+      "price": 205,
+      "related_products": [
+        "Z4B53A"
+      ],
+      "title": "Tinta HP GT52 Cian"
+    },
+    "M0H55AL": {
+      "category_id": 1,
+      "description": "Botella de Tinta HP GT52 Magenta Original",
+      "image": "https://www.cyberpuerta.mx/img/product/M/CP-HP-M0H55AL-6d36c8.jpg",
+      "price": 205,
+      "related_products": [
+        "Z4B53A"
+      ],
+      "title": "Tinta HP GT52 Magenta"
+    },
+    "M0H56AL": {
+      "category_id": 1,
+      "description": "Botella de Tinta HP GT52 Amarilla Original",
+      "image": "https://www.cyberpuerta.mx/img/product/M/CP-HP-M0H56AL-fa2441.jpg",
+      "price": 205,
+      "related_products": [
+        "Z4B53A"
+      ],
+      "title": "Tinta HP GT52 Amarilla"
+    },
+    "MFCJ6940DW": {
+      "category_id": 2,
+      "description": "Brother MFC-J6940DW multifunction printer Inkjet A4 1200 x 4800 DPI Wi-Fi",
+      "image": "https://www.cyberpuerta.mx/img/product/M/CP-BROTHER-MFC-J6940DW-cffddf.jpg",
+      "price": 7639,
+      "related_products": [
+        "LC402XLC",
+        "LC402XLY",
+        "LC402BK",
+        "LC402XLM"
+      ],
+      "title": "Brother MFC-J6940DW"
+    },
+    "MFCT920DW": {
+      "category_id": 2,
+      "description": "Brother MFC-T920DW Inyección de tinta A4 6000 x 1200 DPI 30 ppm Wifi",
+      "image": "https://www.cyberpuerta.mx/img/product/M/CP-BROTHER-MFC-T920DW-1.jpg",
+      "price": 8349,
+      "related_products": [
+        "BTD60BK",
+        "BT5001C",
+        "BT5001M",
+        "BT5001Y"
+      ],
+      "title": "Brother MFC-T920DW"
+    },
+    "T504120-AL": {
+      "category_id": 1,
+      "description": "Tanque de Tinta Epson T504 Negro, 127ml",
+      "image": "https://www.cyberpuerta.mx/img/product/M/CP-EPSON-T504120-AL-1.jpg",
+      "price": 245,
+      "related_products": [
+        "C11CH96301"
+      ],
+      "title": "Tinta Epson T504 Negro"
+    },
+    "T504220-AL": {
+      "category_id": 1,
+      "description": "Tanque de Tinta Epson T504 Cian, 70ml",
+      "image": "https://www.cyberpuerta.mx/img/product/M/CP-EPSON-T504220-AL-1.jpg",
+      "price": 196,
+      "related_products": [
+        "C11CH96301"
+      ],
+      "title": "Tinta Epson T504 Cian"
+    },
+    "T504320-AL": {
+      "category_id": 1,
+      "description": "Tanque de Tinta Epson T504 Magenta, 70ml",
+      "image": "https://www.cyberpuerta.mx/img/product/M/CP-EPSON-T504320-AL-1.jpg",
+      "price": 198,
+      "related_products": [
+        "C11CH96301"
+      ],
+      "title": "Tinta Epson T504 Magenta"
+    },
+    "T504420-AL": {
+      "category_id": 1,
+      "description": "Tanque de Tinta Epson T504 Amarillo, 70ml",
+      "image": "https://www.cyberpuerta.mx/img/product/M/CP-EPSON-T504420-AL-1.jpg",
+      "price": 200,
+      "related_products": [
+        "C11CH96301"
+      ],
+      "title": "Tinta Epson T504 Amarillo"
+    },
+    "W1510A": {
+      "category_id": 1,
+      "description": "Cartucho de Tóner HP 151A Negro LaserJet Original",
+      "image": "https://www.cyberpuerta.mx/img/product/M/CP-HP-W1510A-145d16.png",
+      "price": 2499,
+      "related_products": [
+        "2Z611A",
+        "2Z627A"
+      ],
+      "title": "Tóner HP 151A Negro"
+    },
+    "W1510X": {
+      "category_id": 1,
+      "description": "Cartucho de Tóner HP 151X Negro LaserJet Original",
+      "image": "https://www.cyberpuerta.mx/img/product/M/CP-HP-W1510X-d2c86e.jpg",
+      "price": 5139,
+      "related_products": [
+        "2Z611A",
+        "2Z627A"
+      ],
+      "title": "Tóner HP 151X Negro"
+    },
+    "W2020X": {
+      "category_id": 1,
+      "description": "Cartucho de Tóner HP 414X Negro Alto Rendimiento LaserJet Original",
+      "image": "https://www.cyberpuerta.mx/img/product/M/CP-HP-W2020X-1.jpg",
+      "price": 4069,
+      "related_products": [
+        "3QA55A"
+      ],
+      "title": "Tóner HP 414X Negro"
+    },
+    "W2021X": {
+      "category_id": 1,
+      "description": "Cartucho de Tóner HP 414X Cian Alto Rendimiento LaserJet Original",
+      "image": "https://www.cyberpuerta.mx/img/product/M/CP-HP-W2021X-1.jpg",
+      "price": 5549,
+      "related_products": [
+        "3QA55A"
+      ],
+      "title": "Tóner HP 414X Cian"
+    },
+    "W2022X": {
+      "category_id": 1,
+      "description": "Cartucho de Tóner HP 414X Amarillo Alto Rendimiento LaserJet Original",
+      "image": "https://www.cyberpuerta.mx/img/product/M/CP-HP-W2022X-1.jpg",
+      "price": 5639,
+      "related_products": [
+        "3QA55A"
+      ],
+      "title": "Tóner HP 414X Amarillo"
+    },
+    "W2023X": {
+      "category_id": 1,
+      "description": "Cartucho de Tóner HP 414X Magenta Alto Rendimiento LaserJet Original",
+      "image": "https://www.cyberpuerta.mx/img/product/M/CP-HP-W2023X-1.jpg",
+      "price": 5529,
+      "related_products": [
+        "3QA55A"
+      ],
+      "title": "Tóner HP 414X Magenta"
+    },
+    "Z4B53A": {
+      "category_id": 2,
+      "description": "HP Ink Tank Wireless 415 Inyección de tinta térmica A4 4800 x 1200 DPI 8 ppm Wifi",
+      "image": "https://www.cyberpuerta.mx/img/product/M/CP-HP-Z4B53A-15ca71.jpg",
+      "price": 3499,
+      "related_products": [
+        "M0H54AL",
+        "M0H55AL",
+        "M0H56AL"
+      ],
+      "title": "HP Ink Tank Wireless 415"
+    }
+  }
+}
